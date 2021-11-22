@@ -1,0 +1,112 @@
+{
+  "K__tasks": [
+    {
+      "id": 1,
+      "name": "Любимый исполнитель",
+      "variant": [
+        {
+          "id": 1,
+          "name": "ЛСП",
+          "proverka": true,
+          "completed": false
+        },
+        {
+          "id": 2,
+          "name": "PHARAOH",
+          "proverka": false,
+          "completed": false
+        },
+        {
+          "id": 3,
+          "name": "MORGENSHTERN",
+          "proverka": false,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Мое хобби ",
+      "variant": [
+        {
+          "id": 4,
+          "name": "КС",
+          "proverka": false
+        },
+        {
+          "id": 5,
+          "name": "Бухло",
+          "proverka": false
+        },
+        {
+          "id": 6,
+          "name": "Музыка",
+          "proverka": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Любимый тайтл",
+      "variant": [
+        {
+          "id": 7,
+          "name": "Атака Титанов",
+          "proverka": false
+        },
+        {
+          "id": 8,
+          "name": "Наруто",
+          "proverka": true
+        },
+        {
+          "id": 9,
+          "name": "Хантер x Хантер",
+          "proverka": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Выбери котейку",
+      "variant": [
+        {
+          "id": 10,
+          "name": "Тайский",
+          "proverka": false
+        },
+        {
+          "id": 11,
+          "name": "Дашуля",
+          "proverka": true
+        },
+        {
+          "id": 12,
+          "name": "Манул",
+          "proverka": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Я заебался делать этот сайт?",
+      "variant": [
+        {
+          "id": 13,
+          "name": "пошел нахуй",
+          "proverka": false
+        },
+        {
+          "id": 14,
+          "name": "да(это правильный вариант)",
+          "proverka": true
+        },
+        {
+          "id": 15,
+          "name": "пизда",
+          "proverka": false
+        }
+      ]
+    }
+  ]
+}

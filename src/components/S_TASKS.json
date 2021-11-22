@@ -1,0 +1,94 @@
+{
+  "S__tasks": [
+    {
+      "id": 1,
+      "name": "Моя любимая песня :",
+      "variant": [
+        {
+          "name": "Платина - В темноте ",
+          "proverka": false
+        },
+        {
+          "name": "Lil krystalll- +44",
+          "proverka": false
+        },
+        {
+          "name": "Саша не знает",
+          "proverka": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Какая первая буква в самом красивом имени на свете:",
+      "variant": [
+        {
+          "name": "С",
+          "proverka": false
+        },
+        {
+          "name": "А",
+          "proverka": false
+        },
+        {
+          "name": "Л",
+          "proverka": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Любимый персонаж Саши из Наруто:",
+      "variant": [
+        {
+          "name": "Наруто",
+          "proverka": false
+        },
+        {
+          "name": "Итачи ",
+          "proverka": true
+        },
+        {
+          "name": "Саске",
+          "proverka": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Что будет в любом луке Саши , когда он вырастет:",
+      "variant": [
+        {
+          "name": "NB и SI",
+          "proverka": true
+        },
+        {
+          "name": "одежда по погоде и в соотвествии с модой ",
+          "proverka": false
+        },
+        {
+          "name": "Голый будет - пусть проветривается",
+          "proverka": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Что нас объединяет с Кириллом ? ",
+      "variant": [
+        {
+          "name": "Гениальность и  2 пары обуви",
+          "proverka": false
+        },
+        {
+          "name": "празднование в один день",
+          "proverka": false
+        },
+        {
+          "name": "все вместе, а ещё много чего другого",
+          "proverka": true
+        }
+      ]
+    }
+  ]
+}

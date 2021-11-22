@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
 
-function App() {
+import Task from './components/Task/Task.jsx'
+import TaskS from './components/Task copy/Task.jsx'
+
+import './index.scss'
+
+function App({ active }) {
+  const [proverka, setProverka] = useState(true)
+  const footer = (active) => {
+    if (proverka) {
+      setProverka(active)
+    }
+    return footer
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="victor">
+      <div className="victor__head">
+        <p>Our Happy Birthday</p>
+      </div>
+      <div className="victor__body">
+        <div className="victor__body-sasha">
+          <p>Саша</p>
+          <TaskS setProverka={active} />
+        </div>
+        <div className="victor__body-kirill">
+          <p>Кирилл</p>
+          <Task setProverka={active} />
+        </div>
+      </div>
+      <div className="victor__footer">
+        <button>Проверить ответы</button>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  list-style: none;
+}
+.victor {
+  &__head {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 110px;
+    color: #201238;
+
+    border-bottom: 4px solid#000;
+  }
+  &__body {
+    padding: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    &-sasha {
+      padding-left: 100px;
+      p {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 74px;
+        color: #201238;
+      }
+    }
+    &-kirill {
+      padding-right: 100px;
+      p {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 74px;
+        color: #201238;
+      }
+    }
+  }
+  &__footer {
+    button {
+      display: flex;
+      justify-content: center;
+      width: 400px;
+      height: 50px;
+      border-radius: 10px;
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 41px;
+      color: #fff;
+      background-color: #201238;
+    }
+  }
+}
