@@ -96,3 +96,31 @@
     }
   }
 }
+@media screen and (max-width: 490px) {
+  .victor {
+    &__body {
+      &-kirill {
+        .task {
+          &__que {
+            &-li {
+              width: 300px;
+              height: 320px;
+            }
+          }
+        }
+      }
+      &-sasha {
+        width: 435px;
+
+        .task {
+          &__que {
+            &-li {
+              width: 300px;
+              height: 320px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
