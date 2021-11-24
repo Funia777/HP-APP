@@ -102,19 +102,19 @@
       "variant": [
         {
           "id": 13,
-          "name": "пошел нахуй",
+          "name": "Пошел нахуй",
           "proverka": false,
           "completed": false
         },
         {
           "id": 14,
-          "name": "да(это правильный вариант)",
+          "name": "Да(это правильный вариант)",
           "proverka": true,
           "completed": false
         },
         {
           "id": 15,
-          "name": "пизда",
+          "name": "Пизда",
           "proverka": false,
           "completed": false
         }
