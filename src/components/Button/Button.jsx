@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import './Button.scss'
 
 import restart from '../img/restart_alt_black_24dp.svg'
+import vivo from '../img/Comp 1.mp4'
 
 import K_TASKS from '../K_TASKS.json'
 import S_TASKS from '../S_TASKS.json'
@@ -20,6 +21,13 @@ function Button({ proverka, proverka1 }) {
           <p>Молодец , ты ответил на все вопросы правильно </p>
           <p>Вот секретный код HPEP2021</p>{' '}
           <p>Ну и вот тут ты можешь посмотреть ,что тебя ожидает</p>
+          <video
+            src={vivo}
+            width="500px"
+            height="500px"
+            type="video/mp4"
+            controls
+          />
         </span>
       )
     } else if (s1 >= 4 && k1 >= 4) return 'Почти все правильно'
