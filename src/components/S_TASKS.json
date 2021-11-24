@@ -5,34 +5,46 @@
       "name": "Моя любимая песня :",
       "variant": [
         {
+          "id": 1,
           "name": "Платина - В темноте ",
-          "proverka": false
+          "proverka": true,
+          "completed": false
         },
         {
+          "id": 2,
           "name": "Lil krystalll- +44",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         },
         {
+          "id": 3,
           "name": "Саша не знает",
-          "proverka": true
+          "proverka": false,
+          "completed": false
         }
       ]
     },
     {
       "id": 2,
-      "name": "Какая первая буква в самом красивом имени на свете:",
+      "name": "Какая первая буква в самом красивом имени на свете: ",
       "variant": [
         {
+          "id": 4,
           "name": "С",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         },
         {
+          "id": 5,
           "name": "А",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         },
         {
+          "id": 6,
           "name": "Л",
-          "proverka": true
+          "proverka": true,
+          "completed": false
         }
       ]
     },
@@ -41,16 +53,22 @@
       "name": "Любимый персонаж Саши из Наруто:",
       "variant": [
         {
-          "name": "Наруто",
-          "proverka": false
+          "id": 7,
+          "name": "Наруто ",
+          "proverka": false,
+          "completed": false
         },
         {
+          "id": 8,
           "name": "Итачи ",
-          "proverka": true
+          "proverka": true,
+          "completed": false
         },
         {
+          "id": 9,
           "name": "Саске",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         }
       ]
     },
@@ -59,34 +77,46 @@
       "name": "Что будет в любом луке Саши , когда он вырастет:",
       "variant": [
         {
+          "id": 10,
           "name": "NB и SI",
-          "proverka": true
+          "proverka": true,
+          "completed": false
         },
         {
-          "name": "одежда по погоде и в соотвествии с модой ",
-          "proverka": false
+          "id": 11,
+          "name": "Одежда по погоде и в соотвествии с модой ",
+          "proverka": false,
+          "completed": false
         },
         {
+          "id": 12,
           "name": "Голый будет - пусть проветривается",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         }
       ]
     },
     {
       "id": 5,
-      "name": "Что нас объединяет с Кириллом ? ",
+      "name": "Что нас объединяет с Кириллом ?",
       "variant": [
         {
+          "id": 13,
           "name": "Гениальность и  2 пары обуви",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         },
         {
-          "name": "празднование в один день",
-          "proverka": false
+          "id": 14,
+          "name": "празднование в один день ",
+          "proverka": false,
+          "completed": false
         },
         {
+          "id": 15,
           "name": "все вместе, а ещё много чего другого",
-          "proverka": true
+          "proverka": true,
+          "completed": false
         }
       ]
     }

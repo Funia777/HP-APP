@@ -2,19 +2,11 @@ import React, { useState, useEffect } from 'react'
 
 import './Task.scss'
 
-import check from '../img/check24.svg'
-
 import S_TASKS from '../S_TASKS.json'
 
-const Task = ({ active }) => {
-  const [activeItem, setActiveItem] = useState(null)
+const Task = ({ proverka }) => {
   const [id, setID] = useState('')
-  useEffect(
-    (li) => {
-      console.log(activeItem)
-    },
-    [id]
-  )
+  useEffect((li) => {}, [id])
   return (
     <div className="task">
       {S_TASKS.S__tasks.map((li) => (
@@ -28,17 +20,18 @@ const Task = ({ active }) => {
                   <input id={que.id} type="checkbox" />
                   <label
                     key={que.id}
-                    className={que.completed ? activeItem : ''}
+                    className={que.completed ? 'active' : ''}
                     htmlFor={que.id}
                     onClick={(item) => {
+                      li.variant.map((ques) => {
+                        ques.completed = false
+                      })
                       que.completed = !que.completed
-                      setActiveItem('active')
                       setID(que.id)
+                      console.log(que)
                     }}
-                    proverka={que}
-                  >
-                    <img src={check} alt="ok" />
-                  </label>
+                    proverka={id}
+                  ></label>
                 </div>
                 {que.name}
               </span>

@@ -31,17 +31,20 @@
         {
           "id": 4,
           "name": "КС",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         },
         {
           "id": 5,
           "name": "Бухло",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         },
         {
           "id": 6,
           "name": "Музыка",
-          "proverka": true
+          "proverka": true,
+          "completed": false
         }
       ]
     },
@@ -52,17 +55,20 @@
         {
           "id": 7,
           "name": "Атака Титанов",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         },
         {
           "id": 8,
           "name": "Наруто",
-          "proverka": true
+          "proverka": true,
+          "completed": false
         },
         {
           "id": 9,
           "name": "Хантер x Хантер",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         }
       ]
     },
@@ -73,17 +79,20 @@
         {
           "id": 10,
           "name": "Тайский",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         },
         {
           "id": 11,
           "name": "Дашуля",
-          "proverka": true
+          "proverka": true,
+          "completed": false
         },
         {
           "id": 12,
           "name": "Манул",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         }
       ]
     },
@@ -94,17 +103,20 @@
         {
           "id": 13,
           "name": "пошел нахуй",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         },
         {
           "id": 14,
           "name": "да(это правильный вариант)",
-          "proverka": true
+          "proverka": true,
+          "completed": false
         },
         {
           "id": 15,
           "name": "пизда",
-          "proverka": false
+          "proverka": false,
+          "completed": false
         }
       ]
     }

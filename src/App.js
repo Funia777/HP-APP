@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import Task from './components/Task/Task.jsx'
 import TaskS from './components/Task copy/Task.jsx'
+import Butt from './components/Button/Button.jsx'
 
 import './index.scss'
 
@@ -29,7 +30,7 @@ function App({ active }) {
         </div>
       </div>
       <div className="victor__footer">
-        <button>Проверить ответы</button>
+        <Butt />
       </div>
     </div>
   )

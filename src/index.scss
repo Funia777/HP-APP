@@ -16,9 +16,9 @@
     font-weight: normal;
     font-size: 96px;
     line-height: 110px;
-    color: #201238;
+    color: #16051a;
 
-    border-bottom: 4px solid#000;
+    border-bottom: 4px solid#16051A;
   }
   &__body {
     padding: 30px;
@@ -33,7 +33,7 @@
         font-weight: normal;
         font-size: 64px;
         line-height: 74px;
-        color: #201238;
+        color: #16051a;
       }
     }
     &-kirill {
@@ -44,26 +44,13 @@
         font-weight: normal;
         font-size: 64px;
         line-height: 74px;
-        color: #201238;
+        color: #16051a;
       }
     }
   }
   &__footer {
     display: flex;
     justify-content: center;
-    button {
-      display: flex;
-      justify-content: center;
-      width: 400px;
-      height: 50px;
-      border-radius: 10px;
-      font-family: Ubuntu;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 36px;
-      line-height: 41px;
-      color: #fff;
-      background-color: #201238;
-    }
+    padding-bottom: 100px;
   }
 }

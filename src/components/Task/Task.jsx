@@ -1,20 +1,12 @@
 import React, { useState, useEffect } from 'react'
 
-import './Task.scss'
-
-import check from '../img/check24.svg'
+import '../Task copy/Task.scss'
 
 import K_TASKS from '../K_TASKS.json'
 
-const Task = ({ active }) => {
-  const [activeItem, setActiveItem] = useState(null)
+const Task = ({ proverka1 }) => {
   const [id, setID] = useState('')
-  useEffect(
-    (li) => {
-      console.log(activeItem)
-    },
-    [id]
-  )
+  useEffect((li) => {}, [id])
   return (
     <div className="task">
       {K_TASKS.K__tasks.map((li) => (
@@ -38,10 +30,8 @@ const Task = ({ active }) => {
                       setID(que.id)
                       console.log(que)
                     }}
-                    proverka={que}
-                  >
-                    <img src={check} alt="ok" />
-                  </label>
+                    proverka1={id}
+                  ></label>
                 </div>
                 {que.name}
               </span>
