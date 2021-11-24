@@ -100,6 +100,11 @@
   .victor {
     &__body {
       &-kirill {
+        margin-left: 20px;
+        p {
+          font-size: 20px;
+          line-height: 25px;
+        }
         .task {
           &__que {
             &-li {
@@ -110,8 +115,14 @@
         }
       }
       &-sasha {
-        width: 435px;
-
+        width: 360px;
+        margin-left: 20px;
+        p {
+          width: 360px;
+          white-space: pre-wrap;
+          font-size: 20px;
+          line-height: 25px;
+        }
         .task {
           &__que {
             &-li {
