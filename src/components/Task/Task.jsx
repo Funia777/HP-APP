@@ -28,12 +28,15 @@ const Task = ({ active }) => {
                   <input id={que.id} type="checkbox" />
                   <label
                     key={que.id}
-                    className={que.completed ? activeItem : ''}
+                    className={que.completed ? 'active' : ''}
                     htmlFor={que.id}
                     onClick={(item) => {
+                      li.variant.map((ques) => {
+                        ques.completed = false
+                      })
                       que.completed = !que.completed
-                      setActiveItem('active')
                       setID(que.id)
+                      console.log(que)
                     }}
                     proverka={que}
                   >
