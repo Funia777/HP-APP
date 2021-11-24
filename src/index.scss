@@ -27,7 +27,7 @@
     padding-bottom: 100px;
     &-sasha {
       padding-left: 100px;
-
+      padding-right: 100px;
       h1 {
         font-family: Ubuntu;
         font-style: normal;
@@ -37,7 +37,7 @@
         color: #16051a;
       }
       p {
-        width: 60%;
+        width: 460px;
         white-space: pre-wrap;
         margin-top: 100px;
         margin-bottom: 20px;
@@ -51,7 +51,7 @@
     }
     &-kirill {
       padding-right: 100px;
-
+      padding-left: 100px;
       h1 {
         font-family: Ubuntu;
         font-style: normal;
@@ -77,5 +77,22 @@
     justify-content: center;
     padding-bottom: 100px;
     border-top: 4px solid#f5a1d1;
+  }
+}
+@media screen and (max-width: 1155px) {
+  .victor {
+    &__body {
+      flex-direction: column;
+      align-items: center;
+      &-sasha {
+        padding: 0;
+        width: 460px;
+        padding-bottom: 200px;
+        border-bottom: 4px solid#f5a1d1;
+      }
+      &-kirill {
+        padding: 0;
+      }
+    }
   }
 }
